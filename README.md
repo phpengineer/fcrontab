@@ -12,5 +12,5 @@
 
 # 任务格式写法 
 - documention http://fcron.free.fr/doc/en/fcrontab.5.html
-- example: @nolog(false),runas(root) 1s  cd /data/cron && /usr/local/php7/bin/php cron.php > /tmp/test.log 2>&1
+- example: @ 1s cd /data/www  && /usr/local/php/bin/php test.php > /tmp/test.log 2>&1
 
